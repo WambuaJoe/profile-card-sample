@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='UTF-8'>
+        <meta name="viewimport" content="width=device-width, initial-scal=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/m3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+        awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .profile-card {
+                text-align: center;
+                padding: 20px;
+                background-color: #f9f9f9;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .profile-info img {
+                width: 200px;
+                height: 200px;
+                border: 5px solid #fff;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            .profile-info h2 {
+                margin: 5px 0;
+                font-size: 18px;
+            }
+
+            .social-links a {
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .social-links a {
+                display: inline-block;
+                margin: 0 10px;
+                color: #333;
+                font-size: 24px;
+                transition: color 0.3s ease-in-out;
+            }
+
+            .social-links a:hover {
+                color: #0077b5;
+            }
+
+            @media screen and (max-width: 768px) {
+                .profile-info img {
+                    max-width: 80px;
+                }
+
+                .profile-info h2 {
+                    font-size: 20px;
+                }
+
+                .profile-info p {
+                    font-size: 16px;
+                }
+
+                .social-links {
+                    margin-top: 10px;
+                }
+
+                .social-links a {
+                    font-size: 20px;
+                }
+            }
+        </style>
+        <title>Profile Card</title>
+    </head>
+    <body>
+        <div class="profile-card">
+            <div class="profile-info">
+                <img src="/images/ideogram.jpeg" alt="Profile Picture">
+                <h2>Mandevu Chan</h2>
+                <p>(Aspiring) Web Developer</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </body>
+</html>
